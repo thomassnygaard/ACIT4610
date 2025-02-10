@@ -36,8 +36,6 @@ python burma.py
    5  25.23       97.24
 
 ```
-...
-
 ### Expected Output:
 
 ```bash
