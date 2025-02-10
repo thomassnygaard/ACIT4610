@@ -1,6 +1,3 @@
-# ACIT4610
-In this repository I want to answer the two tasks in ACIT4610 resit exam of 2025. This will contain a salesperson problem and have well documented code for the dataset and the temporary target longitude. In addition it prints all ids, latitude and longitude in the console.
-
 # ACIT4610 - TSP City Coordinates Parser
 
 This project reads a `.tsp` file containing city coordinates, extracts the data, and prints the longitude of the first city along with all city coordinates.
