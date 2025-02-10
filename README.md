@@ -10,8 +10,7 @@ Ensure you have Python 3.x or later installed on your system:
 python --version
 ```
 ## 📂 Installing Dependencies
-If the project requires any external libraries, they will be listed in requirements.txt. You can install them by running:
-
+This project does not require any external libraries. If you use the below command, you install an empty file:
 ```bash
 
 pip install -r requirements.txt
