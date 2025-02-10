@@ -26,7 +26,7 @@ If you don't have Python, install it from [python.org](https://www.python.org/do
 Run the script using:
 
 ```bash
-python main.py
+python burma.py
 ```
 
 ## 🔑 Setting Up SSH Authentication (If Needed)
