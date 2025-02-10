@@ -14,6 +14,8 @@ If the project requires any external libraries, they will be listed in requireme
 ```bash
 
 pip install -r requirements.txt
+```bash
+
 ## ▶️ Run the Program To run the script and process the .tsp file, use:
 
 ```bash
