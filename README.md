@@ -25,7 +25,7 @@ python burma.py
 ```
 ## 📄 Sample Input/Output
 
-Sample Input (cities.tsp):
+### Sample Input (cities.tsp):
 
 ```bash
 
@@ -38,7 +38,7 @@ Sample Input (cities.tsp):
 ```
 ...
 
-Expected Output:
+### Expected Output:
 
 ```bash
 
