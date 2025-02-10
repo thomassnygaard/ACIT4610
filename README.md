@@ -21,6 +21,8 @@ bash
 ```bash
 
 python burma.py
+
+exit
 ## 📄 Sample Input/Output
 
 Sample Input (cities.tsp):
