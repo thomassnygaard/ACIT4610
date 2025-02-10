@@ -6,7 +6,7 @@ This project processes a `.tsp` file, extracting the city coordinates (longitude
 ## 🛠 Requirements
 Ensure you have Python 3.x or later installed on your system:
 
-bash```
+```bash
 python --version
 ```
 ## 📂 Installing Dependencies
