@@ -29,8 +29,12 @@ Sample Input (cities.tsp):
 
 ```bash
 
-CITY 1 34.0522 -118.2437
-CITY 2 40.7128 -74.0060
+   1  16.47       96.10
+   2  16.47       94.44
+   3  20.09       92.54
+   4  22.39       93.37
+   5  25.23       97.24
+
 ```
 ...
 
@@ -38,9 +42,11 @@ Expected Output:
 
 ```bash
 
-Longitude of first city: -118.2437
-City 1: Latitude: 34.0522, Longitude: -118.2437
-City 2: Latitude: 40.7128, Longitude: -74.0060
+City ID: 1, Latitude: 16.47, Longitude: 96.1
+City ID: 2, Latitude: 16.47, Longitude: 94.44
+City ID: 3, Latitude: 20.09, Longitude: 92.54
+City ID: 4, Latitude: 22.39, Longitude: 93.37
+City ID: 5, Latitude: 25.23, Longitude: 97.24
 ```
 ## 🔑 SSH Authentication (If Needed) If you encounter authentication issues when pulling or pushing to the repository:
 
