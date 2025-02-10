@@ -5,26 +5,20 @@ This project processes a .tsp file, extracting the city coordinates (longitude a
 🛠 Requirements
 Ensure you have Python 3.x or later installed on your system:
 
-bash
-Kopier
-Rediger
-python --version
+bash python --version bash
+
 If you don't have Python, install it from python.org.
 
 📂 Installing Dependencies
 If the project requires any external libraries, they will be listed in requirements.txt. You can install them by running:
 
-bash
-Kopier
-Rediger
-pip install -r requirements.txt
+bash pip install -r requirements.txt bash
+
 ▶️ Run the Program
 To run the script and process the .tsp file, use:
 
-bash
-Kopier
-Rediger
-python burma.py
+bash python burma.py bash
+
 📄 Sample Input/Output
 Sample Input (cities.tsp):
 
@@ -47,40 +41,24 @@ City 2: Latitude: 40.7128, Longitude: -74.0060
 If you encounter authentication issues when pulling or pushing to the repository:
 
 Generate an SSH Key (if you haven't already):
+bash ssh-keygen -t ed25519 -C "your-email@example.com" bash
 
-bash
-Kopier
-Rediger
-ssh-keygen -t ed25519 -C "your-email@example.com"
 Add the SSH Key to GitHub:
+bash cat ~/.ssh/id_ed25519.pub bash
 
-bash
-Kopier
-Rediger
-cat ~/.ssh/id_ed25519.pub
 Copy the output and add it to GitHub under Settings → SSH and GPG keys.
 
 Test the Connection:
+bash ssh -T git@github.com bash
 
-bash
-Kopier
-Rediger
-ssh -T git@github.com
 Set Remote to SSH (if using HTTPS):
+bash git remote set-url origin git@github.com:thomassnygaard/ACIT4610.git bash
 
-bash
-Kopier
-Rediger
-git remote set-url origin git@github.com:thomassnygaard/ACIT4610.git
 🚀 Push Changes (If Contributing)
 To push your changes:
 
-bash
-Kopier
-Rediger
-git add .
-git commit -m "Your commit message"
-git push origin main
+bash git add . git commit -m "Your commit message" git push origin main bash
+
 ❓ Troubleshooting
 If you see a 403 Permission Denied error, ensure you're logged in to the correct GitHub account.
 If you have trouble running the script, double-check that Python is correctly installed.
