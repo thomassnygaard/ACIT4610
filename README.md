@@ -62,7 +62,7 @@ Copy the output and add it to GitHub under Settings → SSH and GPG keys.
 ssh -T git@github.com
 ```
 4. Set Remote to SSH (if using HTTPS):
-bash```
+```bash
 git remote set-url origin git@github.com:thomassnygaard/ACIT4610.git
 ```
 ## 🚀 Push Changes (If Contributing) To push your changes:
