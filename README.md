@@ -10,7 +10,7 @@ Ensure you have Python 3.x or later installed on your system:
 python --version
 ```
 ## 📂 Installing Dependencies
-This project does not require any external libraries. If you use the below command, you install an empty file:
+This project does not require any external libraries. But I created an virtual environment and installed some unneeded dependencies, helping me knowing what to do when there is dependencies in the project in the future:
 ```bash
 
 pip install -r requirements.txt
